@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Summary Roman Kukla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+<! --main-->
+<div class="main">
+    <! --main content-->
+    <div class="main_content" >
+        <! --about_me-->
+        <div class="about">
+            <h2 class="about_position">Ruby on Rails developer</h2>
+            <h3 class="about_name">Roma Kukla</h3>
+            <text class="about_description">
+                I am passionate about my work because I love what I do. Always find in myself steady source of motivation
+                that drives me to do my best. I am able to handle multiple tasks on a daily basis. I use a creative approach to problem solve and also
+                great at time management.If work need can be flexible in my working hours, being able to work evenings and weekends.
+            </text>
+        </div>
+        <! --Education-->
+        <div class="education">
+            <h3>Education</h3>
+            <h4>Cerkassy National Technology University</h4>
+            <h4 class="main_title">Program engineer<span>(bachelor and master)</span></h4>
+            <p class="date">September 2013 - Januar 2019</p>
+        </div>
+        <! --Work-->
+        <div class="work">
+            <h3>Work experience</h3>
+            <! --company1-- >
+            <div>
+                <h5>
+                    main specialist department management of dealers
+                    <span class="main_title">Volia</span>
+                    <a class="link" href="https://volia.com/?partner=organic_search&utm_source=google&utm_medium=organic">volia.com</a>
+                </h5>
+                <p class="date">April 2019 - December 2019 </p>
+                <ul>
+                    <li>Installation of LAN</li>
+                    <li>Connect/disconnect users to cabl TV</li>
+                    <li>Sale product for customers</li>
+                </ul>
+            </div>
+            <! --company2-- >
+            <div>
+                <h5>
+                    support engineer
+                    <span class="main_title">AB "UKRGASBANK</span>
+                    <a class="link" href="http://www.ukrgasbank.com/"> ukrgasbank.com </a>
+                </h5>
+                <p class="date">June 2021 - August 2021</p>
+                <ul>
+                    <li>Setup and repair office equipment</li>
+                    <li>Diagnostics and troubleshooting of software and hardware problems</li>
+                    <li>Explain to users how to use office and other software programs</li>
+                </ul>
+            </div>
+            <! --company3-- >
+            <div>
+                <h5>
+                    support engineer
+                    <span class="main_title">SE "UKRAVTOGAZ"</span>
+                    <a class="link" href="http://ukravtogaz.com/">ukravtogaz.com</a>
+                </h5>
+                <p class="date">September 2021 - July 2022</p>
+                <ul>
+                    <li>working with remote users</li>
+                    <li>restoring internet access</li>
+                    <li>documentation management</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <! --sidebar-->
+    <aside>
+
+        <%= image_tag("me.png", size: "280x300") %>
+        <! --Contact-->
+        <div class="sidebar_except_photo">
+            <h3 class="sidebar_title">Contact</h3>
+            <p>
+                <%= image_tag("phone.png", class: "sidebar_icon") %>
+                <a href="tel:+380930344021" class="sidebar_data"> +38 093 0344 021 </a>
+            </p>
+            <p>
+                 <%= image_tag("mail.png", class: "sidebar_icon") %>
+                <a href="mailto:romankyk@gmail.com" class="sidebar_data"> romankyk@gmail.com </a>
+            </p>
+            <p>
+                 <%= image_tag("telegram.png", class: "sidebar_icon") %>
+                <a href="https://telegram.me/roman_kukla" class="sidebar_data">Telegram</a>
+            </p>
+        </div>
+        <! --Tech skills-->
+        <div class="sidebar_except_photo">
+            <h3 class="sidebar_title">Tech skills</h3>
+            <ul class="sidebar_data">
+                <li class="sidebar_dot"><span class="sidebar_data">HTML5</span></li>
+                <li class="sidebar_dot"><span class="sidebar_data">CSS</span></li>
+                <li class="sidebar_dot"><span class="sidebar_data">GIT</span></li>
+                <li class="sidebar_dot"><span class="sidebar_data">RUBY ON RAILS</span></li>
+            </ul>
+        </div>
+        <! --Soft skills-->
+        <div class="sidebar_except_photo">
+            <h3 class="sidebar_title">Soft skills</h3>
+            <ul class="sidebar_data">
+                <li class="sidebar_dot"><span class="sidebar_data">AGILE</span></li>
+                <li class="sidebar_dot"><span class="sidebar_data">TDD</span></li>
+                <li class="sidebar_dot"><span class="sidebar_data">TeamWork</span></li>
+                <li class="sidebar_dot"><span class="sidebar_data">Stress tolerance</span></li>
+            </ul>
+        </div>
+    </aside>
+</div>
+</body>
+</html>

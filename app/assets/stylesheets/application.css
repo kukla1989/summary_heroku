@@ -1,0 +1,107 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ededed;
+
+}
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    /*width: 1200px; */
+    margin: auto;
+    width: 70%;
+}
+.main_content{
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+    padding: 10px 90px;
+}
+.main_title{
+    color: #ff9900;
+    margin: 5px;
+}
+.education{
+    margin: 23px
+}
+
+.about_position{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.about_name{
+    font-weight: bold;
+    font-size: 45px;
+        margin: 10px;
+    padding:10px;
+
+}
+.date,
+.about_description{
+    display: block;
+    width: 500px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.date{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0;
+}
+.link{
+    color: #bfbfbf;
+    font-style: italic;
+}
+h4, h3, h5{
+    margin:4px;
+}
+
+ul{
+    margin: 8px;
+}
+/*--------------------------ASIDE-----------------------------*/
+/*--------------------------ASIDE-----------------------------*/
+aside{
+    background-color:  #1E2939;
+    padding-top: 30px;
+}
+.sidebar_except_photo{
+    margin: auto;
+    width: 85%;
+}
+.sidebar_icon{
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
+.sidebar_title{
+    color: #ededed;
+}
+
+.sidebar_data{
+    color: #8c8c8c;
+}
+.sidebar_contact{
+    margin-right: 7px;
+}
+.sidebar_dot{
+    color: #ff9900;
+}
+
+.work{
+}
