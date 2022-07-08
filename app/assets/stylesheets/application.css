@@ -17,18 +17,31 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #ededed;
 
+    overflow-x: scroll;
+
 }
-.main{
+#main{
+
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+
     margin: auto;
-    width: 70%;
+
+    overflow-x: scroll;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
 .main_content{
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+
+
     padding: 10px 90px;
+
 }
+aside{
+
+    background-color:  #1E2939;
+    padding-top: 30px;
+}
+
 .main_title{
     color: #ff9900;
     margin: 5px;
@@ -76,10 +89,7 @@ ul{
 }
 /*--------------------------ASIDE-----------------------------*/
 /*--------------------------ASIDE-----------------------------*/
-aside{
-    background-color:  #1E2939;
-    padding-top: 30px;
-}
+
 .sidebar_except_photo{
     margin: auto;
     width: 85%;
