@@ -47,7 +47,8 @@ aside{
     margin: 5px;
 }
 .education{
-    margin: 23px
+    margin: 23px;
+    margin-left: 0;
 }
 
 .about_position{
